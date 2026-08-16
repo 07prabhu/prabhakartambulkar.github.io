@@ -11,200 +11,244 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="navbar">
-    <div class="container nav-wrap">
-      <a class="brand" href="#home">PT<span>.</span></a>
-      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="#home">PT<span>.</span></a>
+    <button class="menu" aria-label="Toggle navigation">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">IT OPERATIONS • NETWORKING • CLOUD</p>
+      <h1>Hi, I'm <span>Prabhakar.</span></h1>
+      <h2>IT Operations & Networking Professional</h2>
+      <p class="lead">
+        I enjoy solving infrastructure problems, supporting users and building reliable
+        IT environments. My interests span endpoint management, networking, Microsoft
+        technologies, cloud and security.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="#projects">View my work</a>
+        <a class="btn secondary" href="#gallery">See my journey</a>
+      </div>
+      <div class="terminal-line">
+        <span>$</span> networking · cloud · security · troubleshooting
+      </div>
     </div>
-  </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-grid">
+    <div class="hero-card">
+      <div class="profile-ring">
+        <img src="assets/profile.png" alt="Professional portrait of Prabhakar Tambulkar">
+      </div>
+      <div class="availability">
+        <span></span> Open to opportunities
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Technology with a hands-on mindset.</h2>
+    </div>
+    <div>
+      <p>
+        I work across IT support and operations, with practical exposure to endpoint
+        management, identity, Microsoft 365, network troubleshooting and infrastructure.
+      </p>
+      <p>
+        I am also developing deeper skills in networking, Azure administration,
+        Linux and security — with a long-term goal of growing into infrastructure,
+        network and security-focused roles.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section dark-section">
+  <div class="container">
+    <p class="eyebrow">TOOLKIT</p>
+    <h2>What I work with</h2>
+    <div class="skill-grid">
+      <div class="skill"><b>Networking</b><span>TCP/IP · DNS · DHCP · VLAN · NAT · VPN · Routing & Switching</span></div>
+      <div class="skill"><b>Microsoft</b><span>Entra ID · Active Directory · Microsoft 365 · Intune · Exchange Online</span></div>
+      <div class="skill"><b>Endpoint</b><span>ManageEngine Endpoint Central · Patch Management · MDM · Asset Management</span></div>
+      <div class="skill"><b>Security</b><span>Zscaler · Webroot · Access Management · Endpoint Security · Security Basics</span></div>
+      <div class="skill"><b>Cloud</b><span>Microsoft Azure · Azure VNet · NSG · VM · Bastion · AZ-104 learning path</span></div>
+      <div class="skill"><b>Operations</b><span>ServiceNow · Zendesk · Incident Management · Onboarding · Offboarding · SOPs</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <div class="container">
+    <p class="eyebrow">EXPERIENCE</p>
+    <h2>Building experience through real operations.</h2>
+
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="dot"></div>
         <div>
-          <p class="eyebrow">IT OPERATIONS • NETWORKING • CLOUD</p>
-          <h1>Hi, I'm <span>Prabhakar.</span></h1>
-          <h2>IT Operations &amp; Networking Professional</h2>
-          <p class="hero-copy">
-            I support users, endpoints and infrastructure while building hands-on
-            skills in networking, Microsoft technologies, cloud and security.
+          <p class="date">CURRENT</p>
+          <h3>IT Associate — IT Operations</h3>
+          <p>
+            Supporting global users and IT operations across endpoint management,
+            identity and access, Microsoft 365, patching, security tools, asset
+            lifecycle and operational documentation.
           </p>
-          <div class="actions">
-            <a class="btn primary" href="#projects">Explore my work</a>
-            <a class="btn ghost" href="#contact">Let's connect</a>
-          </div>
-          <div class="quick-links">
-            <a href="https://github.com/07prabhu" target="_blank" rel="noopener">GitHub ↗</a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
-          </div>
         </div>
+      </article>
 
-        <div class="terminal-card">
-          <div class="terminal-bar"><i></i><i></i><i></i></div>
-          <div class="terminal">
-            <p><span class="green">prabhakar@portfolio</span>:~$ whoami</p>
-            <p class="output">IT Operations / Networking</p>
-            <p><span class="green">prabhakar@portfolio</span>:~$ focus</p>
-            <p class="output">Infrastructure · Cloud · Security</p>
-            <p><span class="green">prabhakar@portfolio</span>:~$ skills</p>
-            <p class="output">AD · M365 · Azure · Meraki · Endpoint</p>
-            <p><span class="green">prabhakar@portfolio</span>:~$ <span class="cursor"></span></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container two-col">
+      <article class="timeline-item">
+        <div class="dot"></div>
         <div>
-          <p class="eyebrow">ABOUT ME</p>
-          <h2>Building practical infrastructure skills, one lab at a time.</h2>
-        </div>
-        <div class="prose">
+          <p class="date">PREVIOUS EXPERIENCE</p>
+          <h3>Technical Support Engineer</h3>
           <p>
-            I'm an IT professional with experience in technical support and IT
-            operations. My work includes endpoint management, Microsoft 365,
-            identity administration, patching, asset management and troubleshooting.
-          </p>
-          <p>
-            I enjoy turning concepts into hands-on labs — from Cisco Meraki
-            networking and Azure infrastructure to Windows Server and Active
-            Directory environments.
+            Supported global retail/POS environments, handled incidents and
+            troubleshooting, worked with service-management tools and assisted
+            with network and peripheral issues.
           </p>
         </div>
-      </div>
-    </section>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <section id="skills" class="section section-dark">
-      <div class="container">
-        <p class="eyebrow">TECHNICAL SKILLS</p>
-        <h2>Tools &amp; technologies</h2>
-        <div class="skill-grid">
-          <article class="skill-card"><h3>Networking</h3><div class="tags"><span>TCP/IP</span><span>DNS</span><span>DHCP</span><span>VLAN</span><span>VPN</span><span>NAT</span><span>Routing &amp; Switching</span><span>OSPF</span><span>STP</span></div></article>
-          <article class="skill-card"><h3>Microsoft</h3><div class="tags"><span>Microsoft 365</span><span>Active Directory</span><span>Entra ID</span><span>Intune</span><span>Exchange Online</span><span>Teams</span><span>OneDrive</span></div></article>
-          <article class="skill-card"><h3>Cloud &amp; Infrastructure</h3><div class="tags"><span>Azure</span><span>VNet</span><span>VMs</span><span>NSG</span><span>Azure Firewall</span><span>Linux</span><span>VirtualBox</span></div></article>
-          <article class="skill-card"><h3>IT Operations</h3><div class="tags"><span>ManageEngine</span><span>ServiceNow</span><span>Zscaler</span><span>Patch Management</span><span>Endpoint Security</span><span>Asset Management</span></div></article>
-        </div>
-      </div>
-    </section>
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <p class="eyebrow">SELECTED WORK</p>
+    <h2>Projects & practical exposure</h2>
 
-    <section id="experience" class="section">
-      <div class="container">
-        <p class="eyebrow">EXPERIENCE</p>
-        <h2>Professional journey</h2>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div>
-              <span class="date">2025 — Present</span>
-              <h3>IT Associate — IT Operations</h3>
-              <h4>Stratacent</h4>
-              <p>
-                Supporting global users and IT operations across endpoint
-                management, Microsoft 365, identity, patch management,
-                endpoint security, asset management and documentation.
-              </p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div>
-              <span class="date">Previous Experience</span>
-              <h3>Technical Support Engineer</h3>
-              <h4>CompuCom</h4>
-              <p>
-                Supported enterprise retail environments, POS systems,
-                printers, peripherals and network-related incidents using
-                enterprise support and ticketing tools.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section section-dark">
-      <div class="container">
-        <p class="eyebrow">PROJECTS</p>
-        <h2>Hands-on work</h2>
-        <div class="project-grid">
-          <article class="project-card">
-            <div class="project-top"><span>01</span><span>NETWORKING</span></div>
-            <h3>Cisco Meraki Network Deployment</h3>
-            <p>
-              Designed and worked with a Meraki-based network environment
-              involving MX security/SD-WAN, MS switching and MR wireless,
-              with VLANs, DHCP, NAT, firewall rules, DMZ planning and
-              multi-ISP redundancy.
-            </p>
-            <div class="tags"><span>Meraki MX</span><span>MS Switches</span><span>VLAN</span><span>SD-WAN</span></div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top"><span>02</span><span>CLOUD</span></div>
-            <h3>Azure Infrastructure Lab</h3>
-            <p>
-              Hands-on Azure practice covering VNets, subnetting, virtual
-              machines, NSGs, firewall concepts and three-tier architecture.
-            </p>
-            <div class="tags"><span>Azure</span><span>VNet</span><span>NSG</span><span>VM</span></div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top"><span>03</span><span>IDENTITY</span></div>
-            <h3>Active Directory Home Lab</h3>
-            <p>
-              Building a Windows Server lab with AD DS, DNS, users, groups,
-              organizational units and domain-joined Windows clients in VirtualBox.
-            </p>
-            <div class="tags"><span>Windows Server</span><span>AD DS</span><span>DNS</span><span>VirtualBox</span></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="learning" class="section">
-      <div class="container">
-        <p class="eyebrow">CERTIFICATIONS &amp; LEARNING</p>
-        <h2>Currently developing</h2>
-        <div class="learning-grid">
-          <article><span class="icon">01</span><h3>CCNA</h3><p>Networking, routing, switching and troubleshooting fundamentals.</p></article>
-          <article><span class="icon">02</span><h3>Azure Administrator</h3><p>Building practical skills toward AZ-104 and Azure infrastructure administration.</p></article>
-          <article><span class="icon">03</span><h3>Endpoint Management</h3><p>Hands-on experience with endpoint administration, patching and device management.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact section-dark">
-      <div class="container contact-inner">
-        <p class="eyebrow">CONTACT</p>
-        <h2>Let's build something useful.</h2>
+    <div class="project-grid">
+      <article class="project-card featured">
+        <span class="project-number">01</span>
+        <h3>Cisco Meraki Network Deployment</h3>
         <p>
-          I'm open to connecting with recruiters and professionals working
-          across networking, infrastructure, cloud and cybersecurity.
+          Hands-on exposure to Meraki MX security/SD-WAN, MS switching and MR
+          wireless infrastructure, including VLANs, DHCP, NAT, firewall rules,
+          IP whitelisting and multi-ISP planning.
         </p>
-        <div class="actions">
-          <a class="btn primary" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn ghost" href="https://github.com/07prabhu" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </div>
-    </section>
-  </main>
+        <div class="tags"><span>Meraki</span><span>VLAN</span><span>Firewall</span><span>SD-WAN</span></div>
+      </article>
 
-  <footer>
-    <div class="container footer-inner">
-      <span>© 2026 Prabhakar Tambulkar</span>
-      <a href="#home">Back to top ↑</a>
+      <article class="project-card">
+        <span class="project-number">02</span>
+        <h3>Endpoint Management</h3>
+        <p>
+          Patch deployment, endpoint health, software management, device
+          inventory and operational policies using endpoint-management tooling.
+        </p>
+        <div class="tags"><span>ManageEngine</span><span>Windows</span><span>Patching</span></div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-number">03</span>
+        <h3>Azure Infrastructure Lab</h3>
+        <p>
+          Building practical cloud knowledge through Azure VNet, subnetting,
+          NSG, VM, Bastion, firewall and three-tier architecture labs.
+        </p>
+        <div class="tags"><span>Azure</span><span>VNet</span><span>NSG</span></div>
+      </article>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section id="gallery" class="section gallery-section">
+  <div class="container">
+    <div class="gallery-heading">
+      <div>
+        <p class="eyebrow">PROFESSIONAL JOURNEY</p>
+        <h2>Beyond the screen.</h2>
+      </div>
+      <p>Real moments from technical work, infrastructure activities and public speaking.</p>
+    </div>
+
+    <h3 class="gallery-label">Technical Work</h3>
+    <div class="gallery-grid technical">
+      <figure class="gallery-card tall">
+        <img src="assets/network-rack.jpg" alt="Prabhakar working on a network rack">
+        <figcaption>Hands-on network infrastructure work</figcaption>
+      </figure>
+      <figure class="gallery-card">
+        <img src="assets/networking-2.jpg" alt="Prabhakar working with network equipment">
+        <figcaption>Configuring and testing network equipment</figcaption>
+      </figure>
+      <figure class="gallery-card">
+        <img src="assets/networking-1.jpg" alt="Working at a network operations desk">
+        <figcaption>Monitoring and troubleshooting</figcaption>
+      </figure>
+      <figure class="gallery-card">
+        <img src="assets/network-rack-close.jpg" alt="Network rack and switches">
+        <figcaption>Network infrastructure</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="gallery-label">Public Speaking & Leadership</h3>
+    <div class="gallery-grid speaking">
+      <figure class="gallery-card">
+        <img src="assets/speaking-1.jpg" alt="Prabhakar speaking at an engineering event">
+        <figcaption>Presenting at an engineering event</figcaption>
+      </figure>
+      <figure class="gallery-card">
+        <img src="assets/speaking-2.jpg" alt="Prabhakar speaking on stage with an event team">
+        <figcaption>Event participation & communication</figcaption>
+      </figure>
+      <figure class="gallery-card">
+        <img src="assets/speaking-3.jpg" alt="Prabhakar addressing an audience">
+        <figcaption>Speaking and engaging with an audience</figcaption>
+      </figure>
+      <figure class="gallery-card wide">
+        <img src="assets/speaking-wide.jpg" alt="Engineering event presentation">
+        <figcaption>Engineering event presentation</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="container contact-box">
+    <div>
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have an opportunity or a technical conversation?</h2>
+      <p>I'm always interested in learning, building and connecting with people in IT infrastructure, networking and cloud.</p>
+    </div>
+    <div class="contact-links">
+      <a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email me</a>
+      <a class="btn secondary" href="https://github.com/07prabhu" target="_blank" rel="noopener">GitHub ↗</a>
+      <!-- Replace the email above and add your LinkedIn URL when ready. -->
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Prabhakar Tambulkar</span>
+    <span>Built with HTML & CSS · Hosted on GitHub Pages</span>
+  </div>
+</footer>
+
+<script>
+  const menu = document.querySelector('.menu');
+  const nav = document.querySelector('nav');
+  menu.addEventListener('click', () => nav.classList.toggle('open'));
+  document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+</script>
 </body>
 </html>
