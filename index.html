@@ -81,6 +81,23 @@ footer{background:#050b14;color:#71839a;padding:25px 0;font-size:.75rem}.footer-
 @media(max-width:850px){.personal-gallery{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.personal-gallery{grid-template-columns:1fr}.personal-gallery .gallery-card img{height:360px}}
 
+
+/* Tools & platforms showcase */
+.tools-showcase{margin-top:42px;padding:30px;border:1px solid #263448;border-radius:18px;background:linear-gradient(145deg,#111b29,#0d1521)}
+.tools-intro{margin-bottom:24px}.tools-intro h3{font-size:1.55rem;margin:4px 0 7px}.tools-intro p:last-child{margin:0;color:#8fa2b8;max-width:650px}
+.tool-logo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tool-logo-card{min-height:112px;padding:20px 16px;border-radius:14px;background:#f8fafc;display:flex;align-items:center;gap:14px;border:1px solid rgba(255,255,255,.08);transition:transform .2s ease,box-shadow .2s ease}
+.tool-logo-card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(0,0,0,.2)}
+.tool-logo-card strong{display:block;font-size:.98rem;color:#111827;line-height:1.2}.tool-logo-card span{display:block;margin-top:5px;color:#64748b;font-size:.76rem}
+.brand-mark{width:52px;height:52px;flex:0 0 52px;display:grid;place-items:center;border-radius:13px;font-weight:800}
+.me-mark{position:relative;display:block;background:linear-gradient(135deg,#c82332 0 25%,#00a05a 25% 50%,#0079c1 50% 75%,#faaa1e 75%);padding:7px;overflow:hidden}
+.me-mark i{position:absolute;width:24px;height:24px;border-radius:50%;background:#fff;opacity:.96}.me-mark i:nth-child(1){top:5px;left:5px}.me-mark i:nth-child(2){top:5px;right:5px}.me-mark i:nth-child(3){bottom:5px;left:5px}.me-mark i:nth-child(4){bottom:5px;right:5px}
+.z-mark{background:#1769e8;color:#fff;font-size:30px;font-style:italic;font-family:Arial,sans-serif}
+.entra-mark{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4px;background:transparent;padding:4px}.entra-mark i{border-radius:5px}.entra-mark i:nth-child(1){background:#0078d4}.entra-mark i:nth-child(2){background:#2563eb}.entra-mark i:nth-child(3){background:#14b8e6}.entra-mark i:nth-child(4){background:#4f46e5}
+.eset-mark{background:#18a8a8;color:#fff;border-radius:12px;font-size:25px;font-family:Arial,sans-serif;border:5px solid #18a8a8;box-shadow:inset 0 0 0 2px #fff}
+@media(max-width:1000px){.tool-logo-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.tools-showcase{padding:22px 18px}.tool-logo-grid{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -160,10 +177,36 @@ footer{background:#050b14;color:#71839a;padding:25px 0;font-size:.75rem}.footer-
       <div class="skill"><b>Networking</b><span>TCP/IP · DNS · DHCP · VLAN · NAT · VPN · Routing & Switching</span></div>
       <div class="skill"><b>Microsoft</b><span>Entra ID · Active Directory · Microsoft 365 · Intune · Exchange Online</span></div>
       <div class="skill"><b>Endpoint</b><span>ManageEngine Endpoint Central · Patch Management · MDM · Asset Management</span></div>
-      <div class="skill"><b>Security</b><span>Zscaler · Webroot · Access Management · Endpoint Security · Security Basics</span></div>
+      <div class="skill"><b>Security</b><span>Zscaler · ESET · Webroot · Access Management · Endpoint Security</span></div>
       <div class="skill"><b>Cloud</b><span>Microsoft Azure · Azure VNet · NSG · VM · Bastion · AZ-104 learning path</span></div>
       <div class="skill"><b>Operations</b><span>ServiceNow · Zendesk · Incident Management · Onboarding · Offboarding · SOPs</span></div>
     </div>
+
+    <div class="tools-showcase">
+      <div class="tools-intro">
+        <p class="eyebrow">PLATFORMS</p>
+        <h3>Tools I work with</h3>
+        <p>Hands-on experience supporting endpoints, security, identity and IT operations.</p>
+      </div>
+      <div class="tool-logo-grid">
+        <div class="tool-logo-card manageengine">
+          <div class="brand-mark me-mark"><i></i><i></i><i></i><i></i></div>
+          <div><strong>ManageEngine</strong><span>Endpoint Central</span></div>
+        </div>
+        <div class="tool-logo-card zscaler">
+          <div class="brand-mark z-mark">Z</div>
+          <div><strong>Zscaler</strong><span>Zero Trust Security</span></div>
+        </div>
+        <div class="tool-logo-card entra">
+          <div class="brand-mark entra-mark"><i></i><i></i><i></i><i></i></div>
+          <div><strong>Microsoft Entra ID</strong><span>Identity & Access</span></div>
+        </div>
+        <div class="tool-logo-card eset">
+          <div class="brand-mark eset-mark">E</div>
+          <div><strong>ESET</strong><span>Endpoint Protection</span></div>
+        </div>
+      </div>
+    </div>    </div>
   </div>
 </section>
 
